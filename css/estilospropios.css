@@ -1,0 +1,58 @@
+
+.logoAB{
+    width: 70vw;
+    max-width: 350px;
+    min-width: 250px;
+}
+
+.precios{
+    width: 65%;
+    margin: 0 17.5%;
+}
+
+@media (max-width: 768px) {
+    .precios {
+        width: 100%;
+        margin: 0;
+    }}
+
+.contenedorFlex {
+    display: flex;
+    justify-content: center;
+}
+
+#precioManicura, #precioService, #precioPies, #precioDepi {
+    cursor: pointer;
+}
+
+#precioManicura:hover, #precioService:hover, #precioPies:hover, #precioDepi:hover{
+    color: #F9A392;
+}
+
+
+.galeriaMidu{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    width: 95vw;
+    margin: 10px 10px;
+    box-sizing: border-box;
+}
+
+.galeriaMidu img{
+    padding: 3px;
+    object-fit: cover;
+    width: 30%;
+    box-sizing: border-box;
+    opacity: 1;
+    transition: .5s ease;
+    max-width: 200px;
+}
+
+.galeriaMidu img:hover{
+    cursor: crosshair;
+    opacity: 1;
+    filter: contrast(120%);    
+
+}
